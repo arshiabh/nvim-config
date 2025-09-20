@@ -86,7 +86,6 @@ map("n", "<C-S-Tab>", "<cmd>BufferPrevious<CR>", { desc = "Previous buffer" })
 map("n", "<C-w>", "<cmd>bd<CR>", { desc = "Close buffer" })
 
 -- Quick file operations
-map("n", "<C-n>", "<cmd>enew<CR>", { desc = "New file" })
 map("n", "<C-o>", "<cmd>Telescope find_files<CR>", { desc = "Open file" })
 
 -- Indentation like VSCode
